@@ -9,9 +9,9 @@ body{
 }
 
 
-.container{
-    padding: 20px 50px;
-    width: 90vw;
+.container {
+    padding: 20px 49px;
+    width: 87vw;
     margin: auto;
 }
 .hero{
@@ -111,7 +111,7 @@ width: 50%;
 .cards{
     width: 47%;
 padding: 2%;
-box-shadow: 0 0 20px 0px rgba(99, 99, 99, 0.5);
+box-shadow: 0 0 20px 0px rgba(99, 99, 99, 0.3);
 border-radius: 20px;
 margin: 0 10px;
 }
@@ -126,29 +126,37 @@ margin: 0 10px;
     padding-bottom: 30px;
     font-size: 14px;
 }
-.rating{}
 .ratBox {
     display: flex;
     width: 90%;
-    padding: 7%;
+    padding: 7% 2%;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0 0 20px 0px rgba(99, 99, 99, 0.5);
+    box-shadow: 0 0 20px 0px rgba(99, 99, 99, 0.3);
     border-radius: 20px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 .rates{
     line-height: 1.6;
+}
+.rates h1{
+    font-size: 50px;
+    font-weight: bold;
 }
 .rates p{
     font-size: 14px;
 }
 footer{
+    width: 100%;
     background: rgb(7, 0, 26);
     text-align: center;
+    padding: 30px 50px;
+    margin: auto;
 }
 footer>h1{
     padding-bottom: 30px;
