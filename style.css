@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -14,118 +15,161 @@ body{
     width: 87vw;
     margin: auto;
 }
-.hero{
+
+.hero {
     width: 100%;
-display: flex;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.textArea{
-width: 50%;
-align-self: center;
+.textArea {
+    width: 38%;
+    padding-left: 12%;
+    align-self: center;
 }
-.textArea h1{
-    width: 85%;
-    color: rgb(94, 94, 94);
-    font-size: 50px;
+
+.textArea h1 {
+    width: 100%;
+    color: rgb(107 107 107);
+    font-size: 52px;
     text-transform: capitalize;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
-.skip{
+.skip {
     color: orange;
 }
 
-.text{
-font-size: 15px;
-color: rgb(151, 151, 151);
-font-weight: 500;
-line-height: 1.2;
-padding: 30px 0;
+.text {
+    font-size: 20px;
+    color: rgb(151, 151, 151);
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 30px 0;
 }
-.hero_img{
-width: 50%;
+
+.hero_img {
+    width: 66%;
+    align-self: flex-start;
+    margin-bottom: -3px !important;
 }
-.hero_img img{
-width: 100%;
+
+.hero_img img {
+    width: 100%;
+    /* align-self: baseline; */
+    /* background-position: top; */
 }
-.ladi {
+
+.ladiArea {
     background-image: url(images/bg.png);
-    background-position: center center;
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+}
+
+.ladi {
+
+    width: 70%;
+    margin: auto;
     display: flex;
     flex-direction: row-reverse;
     margin-top: 100px;
     margin-bottom: 50px;
-}
-.ladi img{
-width: 50%;
+    padding-top: 100px;
 }
 
-.btn{
-    width: 140px;
-    height: 45px;
+.ladi img {
+    width: 50%;
+    margin-bottom: 0 !important;
+    padding-left: 21%;
+}
+
+.btn {
+    width: 173px;
+    height: 64px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 21px;
     color: white;
+    margin-top: 20px;
+    font-weight: 500;
     border: none;
-    background: linear-gradient(to right,orange,orangered);
+    background: linear-gradient(to right, orange, orangered);
     box-shadow: 0 0 20px 0px rgba(219, 109, 5, 0.651);
-
 }
+
 #main>section.ladiArea>div>div.textArea>p {
-    font-size: 15px;
+    font-size: 19px;
     color: rgb(48 48 48) !important;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.8;
     padding: 20px 0;
 }
+
 #main>section.ladiArea>div>div.textArea>.btn {
- margin-top: 50px;
+    margin-top: 50px;
 }
-.recipe{
-   width: 100%;
+
+.recipe {
+    width: 100%;
 }
-.head{
+
+.head {
     width: 80%;
     margin: auto;
     text-align: center;
-    
-    padding: 50px 0px;}
-.head h1{
+
+    padding: 50px 0px;
+}
+
+.head h1 {
     padding-bottom: 20px;
     text-align: center;
     color: rgb(99, 99, 99);
-    
+    font-size: 45px;
+    text-transform: capitalize;
+
 }
-.head p{
-    width: 70%;
-    color: rgb(41, 41, 41);
+
+.head p {
+    width: 50%;
     margin: auto;
+    color: rgb(41, 41, 41);
+    font-size: 18px;
 }
-.each{
+
+.each {
     display: flex;
 }
-.cards{
+
+.cards {
     width: 47%;
-padding: 2%;
-box-shadow: 0 0 20px 0px rgba(99, 99, 99, 0.3);
-border-radius: 20px;
-margin: 0 10px;
+    padding: 2%;
+    box-shadow: 0 0 20px 0px rgba(99, 99, 99, 0.3);
+    border-radius: 20px;
+    margin: 0 2%;
 }
-.cards img{
+
+.cards img {
     width: 100%;
 }
-.cards h2{padding-top: 10px;
+
+.cards h2 {
+    padding-top: 10px;
     padding: 10px 0;
     font-size: 20px;
 }
-.cards p{
+
+.cards p {
     padding-bottom: 30px;
     font-size: 14px;
 }
+
 .ratBox {
     display: flex;
     width: 90%;
@@ -141,28 +185,34 @@ margin: 0 10px;
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.rates{
+
+.rates {
     line-height: 1.6;
 }
-.rates h1{
+
+.rates h1 {
     font-size: 50px;
     font-weight: bold;
 }
-.rates p{
+
+.rates p {
     font-size: 14px;
 }
-footer{
+
+footer {
     width: 100%;
     background: rgb(7, 0, 26);
     text-align: center;
-    padding: 30px 50px;
+    padding: 60px 0px;
     margin: auto;
 }
-footer>h1{
+
+footer>h1 {
     padding-bottom: 30px;
     color: rgb(102, 102, 102);
 }
-footer>p{
+
+footer>p {
     padding-bottom: 30px;
     color: rgb(255, 255, 255);
     font-size: 14px;
