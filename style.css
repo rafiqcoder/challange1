@@ -162,12 +162,13 @@ body {
 .cards h2 {
     padding-top: 10px;
     padding: 10px 0;
-    font-size: 20px;
+    font-size: 28px;
+    padding-top: 24px;
 }
 
 .cards p {
     padding-bottom: 30px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .ratBox {
@@ -196,7 +197,7 @@ body {
 }
 
 .rates p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer {
@@ -208,12 +209,13 @@ footer {
 }
 
 footer>h1 {
-    padding-bottom: 30px;
+    padding-bottom: 44px;
+    font-size: 32px;
     color: rgb(102, 102, 102);
 }
 
 footer>p {
-    padding-bottom: 30px;
+    padding-bottom: 66px;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 16px;
 }
